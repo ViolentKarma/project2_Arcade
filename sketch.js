@@ -22,7 +22,7 @@ function preload() {
   partyConnect("wss://demoserver.p5party.org", "tic_tac_toe");
   shared = partyLoadShared("shared");
 
-  gif_createImg = createImg("background.gif");
+  gif_createImg = createImg("assets/background.gif");
 }
 
 //Setup Function

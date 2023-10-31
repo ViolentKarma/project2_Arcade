@@ -8,7 +8,7 @@ function solo() {
 
     this.enter = function() {
         col = color('rgb(167,198,201)');
-        gif_createImg = createImg("skel.gif");
+        gif_createImg = createImg("assets/cube.gif");
 
         clickerGame();
         reactionGame();
